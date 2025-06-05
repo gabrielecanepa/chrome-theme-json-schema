@@ -405,19 +405,12 @@
           "properties": {
             "ntp_background_alignment": {
               "type": "string",
-              "enum": [
-                "left",
-                "center",
-                "right"
-              ],
+              "enum": ["left", "center", "right"],
               "description": "The alignment of the background image in the new tab page."
             },
             "ntp_background_repeat": {
               "type": "string",
-              "enum": [
-                "repeat",
-                "no-repeat"
-              ],
+              "enum": ["repeat", "no-repeat"],
               "description": "The repeat style of the background image in the new tab page."
             },
             "ntp_logo_alternate": {
